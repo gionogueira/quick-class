@@ -1,6 +1,6 @@
 /*script carousel*/
 
-$('.carousel').slick({
+$('.carousel2').slick({
     centerMode: false,
     centerPadding: '5px',
     slidesToShow: 4,
@@ -41,5 +41,14 @@ $(function() {
         tabsContent
             .filter((i, tab) => $(tab).data('id') === that.data('id'))
             .addClass('is-selected');
+    });
+});
+
+/*JS Navbar*/
+
+$(function() {
+    $(document).scroll(function() {
+        var $nav = $(".navbar-fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
 });

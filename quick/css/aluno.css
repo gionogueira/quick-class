@@ -1,0 +1,68 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.logo {
+    width: 150px;
+    height: 70px;
+}
+
+.card-text {
+    color: black;
+}
+
+.carousel2 {
+    margin: 0 auto;
+}
+
+.slider {
+    width: 90%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+    margin: 0px 10px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+}
+
+.slick-active {
+    opacity: .5;
+}
+
+.slick-current {
+    opacity: 1;
+}
+
+.card:hover {
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: rgba(63, 62, 62, 0.678) !important;
+    transition: background-color 200ms linear;
+}
+
+.nav-item.active {
+    border-bottom-color: #fff;
+}

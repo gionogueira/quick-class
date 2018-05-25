@@ -12,10 +12,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!--CSS do Slick-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css">
+
     <!--CSS Quick Class-->
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
-
-
 
 </head>
 
@@ -40,92 +42,65 @@
             </div>
         </div>
     </div>
-    <div style="background-color:rgba(40, 46, 52, 0.35);height: 475px;">
-        <div class="container-fluid">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner row w-100 mx-auto">
-                    <div class="carousel-item col-md-4 active">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="img/cap.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h4 class="card-title">Card 1</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <a href="#" class="btn btn-block btn-outline-danger">Comprar</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item col-md-4">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="img/hulk.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h4 class="card-title">Card 2</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <a href="#" class="btn btn-block btn-outline-danger">Comprar</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item col-md-4">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="img/iron.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h4 class="card-title">Card 3</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <a href="#" class="btn  btn-block btn-outline-danger">Comprar</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item col-md-4">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="img/nat.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h4 class="card-title">Card 4</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <a href="#" class="btn btn-block btn-outline-danger">Comprar</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item col-md-4">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="img/tchala.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h4 class="card-title">Card 5</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <a href="#" class="btn btn-block btn-outline-danger">Comprar</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item col-md-4">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="img/thor.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h4 class="card-title">Card 6</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <a href="#" class="btn btn-block btn-outline-danger">Comprar</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item col-md-4">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="img/iron.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h4 class="card-title">Card 7</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <a href="#" class="btn btn-block btn-outline-danger">Comprar</a>
-                            </div>
-                        </div>
-                    </div>
+
+    <section class="center slider">
+        <div class="carousel">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/iron.png" alt="Card image cap" style="height:100%">
+                <div class="card-body">
+                    <h5 class="card-title" style="color:black">Tony Stark</h5>
+                    <p class="card-text" style="color:black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-block btn-outline-danger">Comprar</a>
                 </div>
-                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/cap.png" alt="Card image cap" style="height:100%">
+                <div class="card-body">
+                    <h5 class="card-title" style="color:black">Steve Rogers</h5>
+                    <p class="card-text" style="color:black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-block btn-outline-danger">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/nat.png" alt="Card image cap" style="height:100%">
+                <div class="card-body">
+                    <h5 class="card-title" style="color:black">Natasha Romanov</h5>
+                    <p class="card-text" style="color:black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-block btn-outline-danger">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/hulk.png" alt="Card image cap" style="height:100%">
+                <div class="card-body">
+                    <h5 class="card-title" style="color:black">Bruce Banner</h5>
+                    <p class="card-text" style="color:black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-block btn-outline-danger">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/thor.png" alt="Card image cap" style="height:100%">
+                <div class="card-body">
+                    <h5 class="card-title" style="color:black">Thor Odinson</h5>
+                    <p class="card-text" style="color:black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-block btn-outline-danger">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/tchala.png" alt="Card image cap" style="height:100%">
+                <div class="card-body">
+                    <h5 class="card-title" style="color:black">Tchalla</h5>
+                    <p class="card-text" style="color:black">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-block btn-outline-danger">Comprar</a>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+
     <div id="features">
         <nav>
             <div class="center columns size-80">
@@ -385,6 +360,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
+<!--JS Slick-->
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
 
 <!--JS do Quick-->
 <script type="text/javascript" src="js/quick.js"></script>
