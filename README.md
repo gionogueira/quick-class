@@ -1,2 +1,2 @@
-# quick-class
-Prototipo tela do site Quick Class
+# Quick Class
+## Prototipos de tela do site Quick Class
