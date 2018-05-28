@@ -1,3 +1,23 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/header-background.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+.div-card {
+    height: 500px;
+    background-color: rgba(211, 177, 184, 0.6);
+    border-radius: 10px;
+    width: 100%;
+}
+
 .carousel-item {
     height: 100vh;
     min-height: 300px;
@@ -18,7 +38,7 @@
 }
 
 .carousel2 {
-    margin: 0 auto;
+    margin: -47px auto;
 }
 
 .slider {
