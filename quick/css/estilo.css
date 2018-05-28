@@ -40,6 +40,11 @@ body {
     border-radius: 3px;
     border: 0;
     cursor: pointer;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
 }
 
 .text-signin {
@@ -83,6 +88,11 @@ body {
     border-radius: 2px;
     user-select: none;
     border: 0;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
 }
 
 .text-edit {
