@@ -11,13 +11,6 @@ body {
     height: auto;
 }
 
-.div-card {
-    height: 3350px;
-    background-color: rgba(211, 177, 184, 0.6);
-    border-radius: 10px;
-    width: 100%;
-}
-
 .carousel-item {
     height: 100vh;
     min-height: 300px;
@@ -37,17 +30,13 @@ body {
     color: black;
 }
 
-.carousel2 {
-    margin: -47px auto;
-}
-
 .slider {
     width: 90%;
-    margin: 100px auto;
+    margin: 1px auto;
 }
 
 .slick-track {
-    padding-top: 70px;
+    padding-top: 4px;
 }
 
 .slick-slide {
@@ -89,4 +78,21 @@ body {
 
 .nav-item.active {
     border-bottom-color: #fff;
+}
+
+.card-text-edit {
+    margin-top: 40px;
+    margin-left: 85px;
+    margin-bottom: 0px;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 25px;
+    color: #f7f7f7;
+}
+
+.card-style {
+    background-color: rgba(229, 192, 200, 0.2);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
