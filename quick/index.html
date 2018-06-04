@@ -30,15 +30,90 @@
                 </a>
             </div>
             <div class="col">
-                <button class="signin-button text-signin" href="#">Entrar</button>
+                <button class="signin-button text-signin" data-toggle="modal" href="#" data-target="#myModal">Entrar</button>
             </div>
+
+            <!-- The Modal -->
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title" style="color:black">Login</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1" style="color:black">Email</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite aqui">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1" style="color:black">Senha</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite aqui">
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1" style="color:black">Não sou um robô</label>
+                                </div>
+                                <button type="submit" class="btn btn-block btn-primary botaoModal">Enviar</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
         </div>
         <div class="row">
             <div class="col text-space pitch">
-                <h1 class="pitch_title">Aprenda O Que Quiser <br> Quando Quiser <br>
-                </h1>
+                <h1 class="pitch_title">Aprenda O Que Quiser <br> Quando Quiser <br></h1>
                 <p class="pitch_subtitle">ESTUDE ONLINE COM OS MELHORES PROFESSORES</p>
-                <button class="btn-edit text-edit">Acesse Agora o Catalógo</button>
+                <button class="btn-edit text-edit" ata-toggle="modal" data-target="#myModal1">Acesse Agora o Catalógo</button>
+
+                <!-- The Modal -->
+                <div class="modal fade" id="myModal1">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title" style="color:black">Cadastro</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                            </div>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!--The Modal-->
+
             </div>
         </div>
     </div>
