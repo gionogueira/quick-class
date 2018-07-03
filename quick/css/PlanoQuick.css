@@ -40,6 +40,14 @@ body {
     padding-bottom: 40px;
 }
 
+.card-button1 {
+    margin-top: 64px;
+}
+
+.card-button2 {
+    margin-top: 88px;
+}
+
 .form-text {
     font-family: 'Yantramanav', sans-serif;
     color: #f7f7f7;
